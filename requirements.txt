@@ -1,0 +1,3 @@
+# No required dependencies - uses only Python stdlib + tkinter
+# Optional: for better Codex/Gemini CLI interaction on Windows
+# pip install pywinpty
