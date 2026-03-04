@@ -44,7 +44,7 @@ DEFAULT_CONFIG = {
     "password_file_path": str(Path.home() / "Desktop" / "note.txt"),
     "password_ephemeral_mode": True,
     "password_ttl_seconds": 30,
-    "password_copy_template": "Secret is in {path}. Read it once and do not repeat it.",
+    "password_copy_template": "Secret is in {path}. Read it once, do not repeat it, and delete the file after use.",
     "password_clipboard_clear_seconds": 45,
     "usage_scraper_script": "",
     "providers": {
