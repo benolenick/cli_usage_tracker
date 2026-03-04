@@ -1,5 +1,4 @@
 @echo off
-title AI Usage Tracker
 cd /d "%~dp0"
 
 :: Check Python is available
@@ -10,9 +9,5 @@ if errorlevel 1 (
     exit /b 1
 )
 
-python ai_usage_tracker.py
-if errorlevel 1 (
-    echo.
-    echo Failed to start. Check the error above.
-    pause
-)
+:: Use pythonw to suppress the console window (tkinter-only)
+start "" pythonw ai_usage_tracker.py
